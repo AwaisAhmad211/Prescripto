@@ -1,5 +1,6 @@
 import React from 'react'
 import {assets} from "../assets/assets"
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -12,10 +13,12 @@ const Header = () => {
             <img className='w-28' src={assets.group_profiles} alt="" />
             <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
         </div>
-        <div className='flex bg-white text-gray-600 text-xs py-3 px-6 rounded-full gap-2 hover:scale-105 transition-all duration-500 '>
+        <a href="#speciality">
+        <div className='flex bg-white text-gray-600 text-xs py-3 px-6 rounded-full gap-2 hover:scale-105 transition-all duration-500'>
             <button>Book Appointment</button>
-            <img className='w-3' src={assets.arrow_icon} alt="" />
+            <img className='w-3' src={assets.arrow_icon} alt=""/>
         </div>
+        </a>
       </div>
       {/* --------- Right Side --------- */}
       <div className='md:w-1/2 relative'>
