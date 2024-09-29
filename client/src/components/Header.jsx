@@ -7,7 +7,7 @@ const Header = () => {
     <div className='flex flex-col flex-wrap md:flex-row bg-primary text-white px-6 rounded-lg mt-4 md:px-10 lg:px-20'>
       
       {/* --------- Left Side ---------- */}
-      <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
+      <div className='flex-1 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
         <p className='text-3xl md:text-4xl font-semibold leading-tight md:leading-tight lg:leading-tight text-white'>Book Appointment <br/> With Trusted Doctors</p>
         <div className='flex gap-4 items-center flex-col md:flex-row font-light text-md'>
             <img className='w-28' src={assets.group_profiles} alt="" />
@@ -21,8 +21,8 @@ const Header = () => {
         </a>
       </div>
       {/* --------- Right Side --------- */}
-      <div className='md:w-1/2 relative'>
-       <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="" />
+      <div className='w-1/2 relative'>
+       <img className='w-full absolute bottom-0 right-0 rounded-lg hidden md:block' src={assets.header_img} alt="" />
       </div>
     </div>
   )

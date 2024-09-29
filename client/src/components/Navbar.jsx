@@ -39,7 +39,7 @@ const Navbar = () => {
                   </div>
               </div>
           </div>
-          : <div className='w-[150px] bg-primary flex items-center justify-center rounded-full text-white p-2 text-sm'>
+          : <div className='w-[100px] lg:w-[150px] lg:text-sm bg-primary flex items-center justify-center rounded-full text-white p-2 text-xs'>
             <button onClick={()=> Navigate("/login")}>Create account</button>
         </div>
         }
