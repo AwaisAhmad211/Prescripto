@@ -14,12 +14,12 @@ const Navbar = () => {
             HOME
             <hr className='border-none outline-none h-0.5 w-3/5 m-auto bg-primary hidden'/>
            </NavLink>
-           <NavLink to="/about" className="hover:text-zinc-950">
-            ABOUT
+           <NavLink to="/doctors" className="hover:text-zinc-950">
+            ALL DOCTORS
             <hr className='border-none outline-none h-0.5 w-3/5 m-auto bg-primary hidden'/>
            </NavLink>
-           <NavLink to="/doctors" className="hover:text-zinc-950">
-            DOCTORS
+           <NavLink to="/about" className="hover:text-zinc-950">
+            ABOUT
             <hr className='border-none outline-none h-0.5 w-3/5 m-auto bg-primary hidden'/>
            </NavLink>
            <NavLink to="/contact" className="hover:text-zinc-950">

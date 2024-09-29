@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='text-sm font-medium text-gray-600 text-center'>Copyright 2024 c Prescripto - All Right Reserved</div>
+      <div className='text-sm font-medium text-gray-600 text-center'>Copyright 2024@ Prescripto - All Right Reserved</div>
     </div>
   )
 }
